@@ -108,6 +108,7 @@ class TestimonialScreenState extends State<TestimonialScreen> {
               ElevatedButton(
                   onPressed: () => {},
                   style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.blue,
                     fixedSize: const Size(TwSizes.spacer36, TwSizes.spacer8),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),

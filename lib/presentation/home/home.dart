@@ -44,6 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ElevatedButton(
                   onPressed: () => {},
                   style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.blue,
                     fixedSize: const Size(TwSizes.spacer32, TwSizes.spacer8),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
@@ -95,7 +96,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 ElevatedButton(
                     onPressed: () => {},
                     style: ElevatedButton.styleFrom(
-                      fixedSize: const Size(TwSizes.spacer36, TwSizes.spacer8),
+                      backgroundColor: Colors.blue,
+                      fixedSize: const Size(TwSizes.spacer40, TwSizes.spacer8),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(20),
                       ),

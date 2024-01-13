@@ -85,6 +85,7 @@ class ProductScreenState extends State<ProductScreen> {
               ElevatedButton(
                   onPressed: () => {},
                   style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.blue,
                     fixedSize: const Size(TwSizes.spacer32, TwSizes.spacer8),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
@@ -119,6 +120,7 @@ class ProductScreenState extends State<ProductScreen> {
               ElevatedButton(
                   onPressed: () => {},
                   style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.blue,
                     fixedSize: const Size(TwSizes.spacer32, TwSizes.spacer8),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
